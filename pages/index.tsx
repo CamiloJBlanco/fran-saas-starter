@@ -27,33 +27,32 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <WhiteBackgroundContainer>
           <Hero />
           <Partners />
-          <BasicSection imageUrl="/demo-illustration-1.svg" title="Lorem ipsum dolor sit amet consectetur." overTitle="sit amet gogo">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore
-              voluptate quo deleniti animi laboriosam.{' '}
-              <Link href="/help-center">Possimus ullam velit rem itaque consectetur, in distinctio?</Link> Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Soluta repellendus quia quos obcaecati nihil. Laudantium non accusantium, voluptate eum nesciunt
-              at suscipit quis est soluta?
+          <BasicSection imageUrl="/demo-illustration-1.svg" title="About us" overTitle="Condo History">
+            <p style={{ textAlign: 'justify' }}>
+              Since 2010 we have been dedicated exclusively to the administration of horizontal property consortia in the city of Rosario, providing security, value and confidence
+              to the buildings, their owners and those who live in them. We work daily to offer a better service, focused on our clients, that is reliable and professional.
             </p>
           </BasicSection>
-          <BasicSection imageUrl="/demo-illustration-2.svg" title="Lorem ipsum dolor sit." overTitle="lorem ipsum" reversed>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore{' '}
-              <strong>voluptate quo deleniti animi laboriosam</strong>. Possimus ullam velit rem itaque consectetur, in distinctio?
+          <BasicSection imageUrl="/demo-illustration-2.svg" title="The best assistance for you" overTitle="Professionals" reversed>
+            <p style={{ textAlign: 'justify' }}>
+              We have professionals who constantly advise us on legal and accounting aspects in order to comply with the current demands of our activity,
+              being able to correctly safeguard the rights and obligations of our clients. <br /> <br/>
+              Likewise, we have a wide range of professionals and technicians for maintenance and improvement work, such as: electrical installations, maintenance of elevators,
+              gates, disinfection, maintenance of water pumps, masonry, plumbing, gas fitters, architects, surveyors, engineers . and other suppliers who together with them make
+              it possible to respond to the requirements of our clients. At the same time, in order to be able to sustain the quality of our service over time, we carry out a continuous
+              evaluation of our suppliers, considering costs, deadlines, and completion of the work together with the opinion of our clients, thus monitoring closeness together with the
+              customer of the service providers in the consortia we manage.<br /> <br/>
+              The administration is registered in the Public Registry of Consortium Administrators of the Municipality of Rosario, in full compliance with
+              Ordinance No. 9008/12. Compliance with this municipal ordinance reinforces and provides an additional guarantee framework on the responsibility with which we carry out our work.
             </p>
-            <ul>
-              <li>Professional point 1</li>
-              <li>Professional remark 2</li>
-              <li>Professional feature 3</li>
-            </ul>
           </BasicSection>
         </WhiteBackgroundContainer>
         <DarkerBackgroundContainer>
           <Cta />
-          <FeaturesGallery />
+          {/* <FeaturesGallery /> */}
           <Features />
           <Testimonials />
-          <ScrollableBlogPosts posts={posts} />
+          {/* <ScrollableBlogPosts posts={posts} /> */}
         </DarkerBackgroundContainer>
       </HomepageWrapper>
     </>

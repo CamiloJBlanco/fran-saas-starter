@@ -10,30 +10,30 @@ import { media } from 'utils/media';
 
 const TESTIMONIALS = [
   {
-    companyLogoUrl: '/testimonials/company-logo-1.svg',
+    companyLogoUrl: 'https://media.licdn.com/dms/image/D4D0BAQGa6SA7ZwG5tA/company-logo_200_200/0/1693661534859/condo_srl_logo?e=2147483647&v=beta&t=G8_ZclfMF1KqqkyP4qUnaZEhu3xwtS7vU85qQijHQ80',
     content: `Really good. I am so pleased with this product. I didn't even need training.`,
     author: {
-      name: 'Clyde Edwards',
-      title: 'Very Serious Man',
-      avatarUrl: '/testimonials/author-photo-1.jpeg',
+      name: 'Pedro Ignacio Chiesa',
+      title: 'CEO & Founder Condo Srl',
+      avatarUrl: 'https://media.licdn.com/dms/image/C4D03AQFgMCYXkclc7A/profile-displayphoto-shrink_800_800/0/1651726795904?e=1712793600&v=beta&t=bRH-YDLLUS2hYY5J5JVGGp_AqYga-5npkoi9grkVcIU',
     },
   },
   {
-    companyLogoUrl: '/testimonials/company-logo-2.svg',
+    companyLogoUrl: 'https://media.licdn.com/dms/image/D4D0BAQGa6SA7ZwG5tA/company-logo_200_200/0/1693661534859/condo_srl_logo?e=2147483647&v=beta&t=G8_ZclfMF1KqqkyP4qUnaZEhu3xwtS7vU85qQijHQ80',
     content: `It's really wonderful. I use saas product often. Thank You! Saas product has really helped our business.`,
     author: {
-      name: 'Jimmy Hunter',
-      title: 'Sigma Male University Graduate',
-      avatarUrl: '/testimonials/author-photo-2.jpeg',
+      name: 'Camilo Blanco de la Vega',
+      title: 'Co-Founder Fran Bot',
+      avatarUrl: 'https://media.licdn.com/dms/image/C4E03AQG65meXF0G_Cw/profile-displayphoto-shrink_800_800/0/1596047638192?e=1712793600&v=beta&t=mSCKcC48O4DqxmhQPBhkgxFxHWlQ8XUMjjjCpiJFcNY',
     },
   },
   {
-    companyLogoUrl: '/testimonials/company-logo-3.svg',
-    content: `Since I invested in saas product I made over 100,000 dollars profits. It really saves me time and effort. saas product is exactly what our business has been lacking.`,
+    companyLogoUrl: 'https://media.licdn.com/dms/image/D4D0BAQGa6SA7ZwG5tA/company-logo_200_200/0/1693661534859/condo_srl_logo?e=2147483647&v=beta&t=G8_ZclfMF1KqqkyP4qUnaZEhu3xwtS7vU85qQijHQ80',
+    content: `Since I invested in saas product I made over 100,000 dollars profits. It really saves me time and effort. Saas product is exactly what our business has been lacking.`,
     author: {
-      name: 'Marjorie Morgan',
-      title: 'Chief Chad Officer',
-      avatarUrl: '/testimonials/author-photo-3.jpeg',
+      name: 'Augusto Masetti',
+      title: 'Co-Founder Fran Bot',
+      avatarUrl: 'https://media.licdn.com/dms/image/D4D03AQEUCtLA7WI_rA/profile-displayphoto-shrink_800_800/0/1683959263443?e=1712793600&v=beta&t=_fw15_8hhiivjMW65SkbJFhidaLyh_Qbg6Drm4oG4ZY',
     },
   },
 ];
@@ -50,7 +50,7 @@ export default function Testimonials() {
                 <NextImage
                   src={singleTestimonial.companyLogoUrl}
                   alt={`${singleTestimonial.author.name}'s company logo`}
-                  width={200}
+                  width={40}
                   height={40}
                 />
                 <Content>“{singleTestimonial.content}”</Content>

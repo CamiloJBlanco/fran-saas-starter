@@ -14,11 +14,11 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <CustomOverTitle>the coolest, saas product you have ever seen</CustomOverTitle>
-        <Heading>Make your life easier with our SaaS</Heading>
+        <CustomOverTitle>Fran Bot</CustomOverTitle>
+        <Heading>Make your life easier with our Real Estate Bot</Heading>
         <Description>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, tempora qui. Explicabo voluptate iure ipsum molestias
-          repudiandae perspiciatis nostrum praesentium, unde pariatur tempora magni rem. Necessitatibus facilis obcaecati ratione.
+          Our Real Estate Bot streamlines your life by acting as a centralized solution for all apartment-related matters. It efficiently handles apartment issues, sends documents and expense reports, and facilitates communication with property management.
+          With its comprehensive capabilities, managing your apartment becomes hassle-free, saving you time and effort.
         </Description>
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>

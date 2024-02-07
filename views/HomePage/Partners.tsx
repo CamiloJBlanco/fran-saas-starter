@@ -7,13 +7,12 @@ import Container from 'components/Container';
 import { media } from 'utils/media';
 
 const PARTNER_LOGOS = [
-  'logoipsum-logo-1.svg',
-  'logoipsum-logo-2.svg',
-  'logoipsum-logo-3.svg',
-  'logoipsum-logo-4.svg',
-  'logoipsum-logo-5.svg',
-  'logoipsum-logo-6.svg',
-  'logoipsum-logo-7.svg',
+  "https://www.vectorlogo.zone/logos/ycombinator/ycombinator-ar21.svg",
+  "https://www.vectorlogo.zone/logos/ey/ey-ar21.svg",
+  "https://www.vectorlogo.zone/logos/salesforce/salesforce-ar21.svg",
+  "https://www.vectorlogo.zone/logos/microsoft/microsoft-ar21.svg",
+  "https://www.vectorlogo.zone/logos/3m/3m-ar21.svg",
+  "https://www.vectorlogo.zone/logos/spotify/spotify-ar21.svg",
 ];
 
 export default function Partners() {
@@ -36,7 +35,7 @@ export default function Partners() {
       >
         {PARTNER_LOGOS.map((logo) => (
           <SwiperSlide key={logo}>
-            <NextImage src={'/partners/' + logo} alt={normalizePartnerLogoName(logo)} width={128} height={128} />
+            <NextImage src={logo} alt={normalizePartnerLogoName(logo)} width={200} height={100} />
           </SwiperSlide>
         ))}
       </Swiper>

@@ -1,4 +1,4 @@
-import { FacebookIcon, FacebookShareButton, LinkedinIcon, LinkedinShareButton, TwitterIcon, TwitterShareButton } from 'react-share';
+import { FacebookIcon, FacebookShareButton, LinkedinIcon, LinkedinShareButton, WhatsappIcon, WhatsappShareButton } from 'react-share';
 import styled from 'styled-components';
 import { EnvVars } from 'env';
 import { media } from 'utils/media';
@@ -10,17 +10,16 @@ interface ShareWidgetProps {
 
 export default function ShareWidget({ title, slug }: ShareWidgetProps) {
   const shareMessage = 'New article: ' + title;
-  const currentUrl = EnvVars.URL + 'blog/' + slug;
 
   return (
     <Wrapper>
-      <FacebookShareButton title={shareMessage} url={currentUrl}>
+      <FacebookShareButton title={shareMessage} url={"https://www.condo.com.ar/"}>
         <FacebookIcon />
       </FacebookShareButton>
-      <TwitterShareButton title={shareMessage} url={currentUrl}>
-        <TwitterIcon />
-      </TwitterShareButton>
-      <LinkedinShareButton title={shareMessage} url={currentUrl}>
+      <WhatsappShareButton title={shareMessage} url={"https://wa.me/5493413247522"}>
+        <WhatsappIcon />
+      </WhatsappShareButton>
+      <LinkedinShareButton title={shareMessage} url={"https://www.linkedin.com/company/condo-srl/"}>
         <LinkedinIcon />
       </LinkedinShareButton>
     </Wrapper>

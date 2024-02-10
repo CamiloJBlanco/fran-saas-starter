@@ -9,7 +9,7 @@ export default function ContactPage() {
         <RichText>
           <p>
             At <strong>
-              Fran Bot{' '}
+              echoassist{' '}
             </strong>, we prioritize the privacy and security of our users. We believe in transparency regarding the use of cookies on our website.
             We would like to inform you that our website does not utilize or collect any cookies from its users. <br /><br />
             Cookies are small pieces of data stored on a user&apos;s device to enhance their browsing experience, track user behavior, or for other purposes.
@@ -46,11 +46,11 @@ export default function ContactPage() {
           </ul>
 
           <p>
-            In conclusion, we want to reassure you that your browsing experience on Fran Bot is free from any intrusive tracking or data collection mechanisms.
+            In conclusion, we want to reassure you that your browsing experience on echoassist is free from any intrusive tracking or data collection mechanisms.
             Your privacy and security are our top priorities, and we remain committed to providing a safe and transparent online environment for our users.<br /><br />
             If you have any further questions or concerns regarding our cookie policy or privacy practices, please don&apos;t hesitate to contact us.
             We value your feedback and are always here to assist you.<br /><br />
-            Thank you for choosing Fran Bot.
+            Thank you for choosing echoassist.
           </p>
         </RichText>
       </CookiesPolicyContainer>

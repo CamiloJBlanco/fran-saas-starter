@@ -8,7 +8,7 @@ export default function ContactPage() {
       <PrivacyPolicyContainer>
         <RichText>
           <p>
-            At <strong>Fran Bot</strong>, we prioritize the privacy and security of our users. We believe in transparency regarding the collection and use of personal information on our website. We would like to inform you that we are committed to protecting your privacy, and we do not collect any unnecessary personal data from our users.
+            At <strong>echoassist</strong>, we prioritize the privacy and security of our users. We believe in transparency regarding the collection and use of personal information on our website. We would like to inform you that we are committed to protecting your privacy, and we do not collect any unnecessary personal data from our users.
           </p>
           <br />
           <strong>

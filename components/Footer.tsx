@@ -60,7 +60,7 @@ export default function Footer() {
               </a>
             </NextLink>
           </ShareBar>
-          <Copyright>&copy; Copyright 2024 Fran Bot</Copyright>
+          <Copyright>&copy; Copyright 2024 echoassist</Copyright>
         </BottomBar>
       </Container>
     </FooterWrapper>

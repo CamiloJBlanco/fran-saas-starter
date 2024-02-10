@@ -14,7 +14,7 @@ export default function Homepage() {
         <title>{EnvVars.SITE_NAME}</title>
         <meta
           name="description"
-          content="Fran Bot"
+          content="echoassist"
         />
       </Head>
       <HomepageWrapper>
@@ -22,7 +22,7 @@ export default function Homepage() {
           <Hero />
           {/* Necesario conservar el componente
           <Partners /> */}
-          <BasicSection imageUrl="/dronImage.svg" title="About us" overTitle="Fran&apos;s History">
+          <BasicSection imageUrl="/dronImage.svg" title="About us" overTitle="echoassist&apos;s History">
             <p style={{ textAlign: 'justify' }}>
               Since 2010 we have been dedicated exclusively to the administration of horizontal property consortia in the city of Rosario, providing security, value and confidence
               to the buildings, their owners and those who live in them. We work daily to offer a better service, focused on our clients, that is reliable and professional.

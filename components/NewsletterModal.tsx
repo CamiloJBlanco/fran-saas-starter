@@ -22,7 +22,8 @@ export default function NewsletterModal({ onClose }: NewsletterModalProps) {
 
   function onSubmit(event: React.FormEvent<HTMLFormElement>, enrollNewsletter: (props: DefaultFormFields) => void) {
     event.preventDefault();
-    console.log({ email });
+    //newsletter signup
+    //console.log({ email });
     if (email) {
       enrollNewsletter({ EMAIL: email });
     }

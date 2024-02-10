@@ -10,8 +10,8 @@ import { media } from 'utils/media';
 
 const TESTIMONIALS = [
   {
-    companyLogoUrl: 'https://media.licdn.com/dms/image/D4D0BAQGa6SA7ZwG5tA/company-logo_200_200/0/1693661534859/condo_srl_logo?e=2147483647&v=beta&t=G8_ZclfMF1KqqkyP4qUnaZEhu3xwtS7vU85qQijHQ80',
-    content: `Really good. I am so pleased with this product. I didn't even need training.`,
+    companyLogoUrl: '/franHappy.png',
+    content: `Working with echoassist to develop and integrate Fran, Condo's AI-powered bot, was surprisingly seamless. Fran has revolutionized our customer experience, making interactions effortless and efficient.`,
     author: {
       name: 'Pedro Ignacio Chiesa',
       title: 'CEO & Founder Condo Srl',
@@ -19,21 +19,21 @@ const TESTIMONIALS = [
     },
   },
   {
-    companyLogoUrl: 'https://media.licdn.com/dms/image/D4D0BAQGa6SA7ZwG5tA/company-logo_200_200/0/1693661534859/condo_srl_logo?e=2147483647&v=beta&t=G8_ZclfMF1KqqkyP4qUnaZEhu3xwtS7vU85qQijHQ80',
-    content: `It&apos;s really wonderful. I use saas product often. Thank You! Saas product has really helped our business.`,
+    companyLogoUrl: '/franWink.png',
+    content: `Really good. I am so pleased with this product. I didn't even need training.`,
     author: {
-      name: 'Camilo Blanco de la Vega',
-      title: 'Co-Founder Fran Bot',
-      avatarUrl: 'https://media.licdn.com/dms/image/C4E03AQG65meXF0G_Cw/profile-displayphoto-shrink_800_800/0/1596047638192?e=1712793600&v=beta&t=mSCKcC48O4DqxmhQPBhkgxFxHWlQ8XUMjjjCpiJFcNY',
+      name: 'Micaela Belén Chicco',
+      title: 'COO - Condo Srl',
+      avatarUrl: 'https://media.licdn.com/dms/image/D5603AQGTJk_u_NAPYQ/profile-displayphoto-shrink_800_800/0/1690583711702?e=1712793600&v=beta&t=KsFjRj7Rozd6FK9UAtTn2L-e6Ev7l_MIf0aCGRsqJbw',
     },
   },
   {
-    companyLogoUrl: 'https://media.licdn.com/dms/image/D4D0BAQGa6SA7ZwG5tA/company-logo_200_200/0/1693661534859/condo_srl_logo?e=2147483647&v=beta&t=G8_ZclfMF1KqqkyP4qUnaZEhu3xwtS7vU85qQijHQ80',
-    content: `Since I invested in saas product I made over 100,000 dollars profits. It really saves me time and effort. Saas product is exactly what our business has been lacking.`,
+    companyLogoUrl: '/franXd.png',
+    content: `It's really wonderful. I use echoassist often. Thank You! echoassist has really helped our business.`,
     author: {
-      name: 'Augusto Masetti',
-      title: 'Co-Founder Fran Bot',
-      avatarUrl: 'https://media.licdn.com/dms/image/D4D03AQEUCtLA7WI_rA/profile-displayphoto-shrink_800_800/0/1683959263443?e=1712793600&v=beta&t=_fw15_8hhiivjMW65SkbJFhidaLyh_Qbg6Drm4oG4ZY',
+      name: 'Galo Bernardi',
+      title: 'Project Leader - Condo Srl',
+      avatarUrl: 'https://media.licdn.com/dms/image/D4D03AQE43vmZ-utsgg/profile-displayphoto-shrink_800_800/0/1699550489570?e=1712793600&v=beta&t=725LQlJuAQprbUV8Cre26KRnx4H6V8GIw8oZPApZRmw',
     },
   },
 ];
@@ -49,7 +49,7 @@ export default function Testimonials() {
               <TestimonialCard>
                 <NextImage
                   src={singleTestimonial.companyLogoUrl}
-                  alt={`${singleTestimonial.author.name}&apos;s company logo`}
+                  alt={`${singleTestimonial.author.name}'s company logo`}
                   width={40}
                   height={40}
                 />

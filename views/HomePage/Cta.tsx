@@ -17,7 +17,7 @@ export default function Cta() {
       <Container>
         <Stack>
           <OverTitle>Features</OverTitle>
-          <SectionTitle>Want to know more about Fran&apos;s features?</SectionTitle>
+          <SectionTitle>Want to know more about echoassist&apos;s features?</SectionTitle>
           <Description>
             Experience premium real estate bot services with tailored features and 24/7 support across multiple channels. 
             Our platform prioritizes security with encryption and proactive monitoring, while ensuring accessibility for all users. 

@@ -14,7 +14,7 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <CustomOverTitle>Fran Bot</CustomOverTitle>
+        <CustomOverTitle>echoassist</CustomOverTitle>
         <Heading>Make your life easier with our Real Estate Bot</Heading>
         <Description>
           Our Real Estate Bot streamlines your life by acting as a centralized solution for all apartment-related matters. It efficiently handles apartment issues, sends documents and expense reports, and facilitates communication with property management.

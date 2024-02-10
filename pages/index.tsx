@@ -25,13 +25,13 @@ export default function Homepage() {
           <Hero />
           {/* Necesario conservar el componente
           <Partners /> */}
-          <BasicSection imageUrl="/demo-illustration-1.svg" title="About us" overTitle="Fran's History">
+          <BasicSection imageUrl="/dronImage.svg" title="About us" overTitle="Fran's History">
             <p style={{ textAlign: 'justify' }}>
               Since 2010 we have been dedicated exclusively to the administration of horizontal property consortia in the city of Rosario, providing security, value and confidence
               to the buildings, their owners and those who live in them. We work daily to offer a better service, focused on our clients, that is reliable and professional.
             </p>
           </BasicSection>
-          <BasicSection imageUrl="/demo-illustration-2.svg" title="The best assistance for you" overTitle="Professionals" reversed>
+          <BasicSection imageUrl="/tabletImage.svg" title="The best assistance for you" overTitle="Professionals" reversed>
             <p style={{ textAlign: 'justify' }}>
               We have professionals who constantly advise us on legal and accounting aspects in order to comply with the current demands of our activity,
               being able to correctly safeguard the rights and obligations of our clients. <br /> <br />
@@ -48,7 +48,7 @@ export default function Homepage() {
         <DarkerBackgroundContainer>
           <Cta />
           {/* <FeaturesGallery /> */}
-          {/* <Features /> */}
+          <Features />
           <Testimonials />
         </DarkerBackgroundContainer>
       </HomepageWrapper>
@@ -58,7 +58,7 @@ export default function Homepage() {
 
 const HomepageWrapper = styled.div`
   & > :last-child {
-    margin-bottom: 15rem;
+    margin-bottom: 8rem;
   }
 `;
 
@@ -66,7 +66,7 @@ const DarkerBackgroundContainer = styled.div`
   background: rgb(var(--background));
 
   & > *:not(:first-child) {
-    margin-top: 15rem;
+    margin-top: 10rem;
   }
 `;
 
@@ -74,10 +74,10 @@ const WhiteBackgroundContainer = styled.div`
   background: rgb(var(--secondBackground));
 
   & > :last-child {
-    padding-bottom: 15rem;
+    padding-bottom: 8rem;
   }
 
   & > *:not(:first-child) {
-    margin-top: 15rem;
+    margin-top: 12rem;
   }
 `;

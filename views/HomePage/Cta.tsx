@@ -19,8 +19,9 @@ export default function Cta() {
           <OverTitle>Features</OverTitle>
           <SectionTitle>Want to know more about Fran's features?</SectionTitle>
           <Description>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda beatae accusamus deleniti nihil quas tempora numquam, vitae
-            culpa.
+            Experience premium real estate bot services with tailored features and 24/7 support across multiple channels. 
+            Our platform prioritizes security with encryption and proactive monitoring, while ensuring accessibility for all users. 
+            Enjoy a seamless experience for elevated housing administration.
           </Description>
           <ButtonGroup>
             <Button onClick={() => setIsModalOpened(true)}>

@@ -72,7 +72,7 @@
             "pattern": "public/**",
             "group": "internal",
             "position": "after"
-          },
+          }
         ],
         "pathGroupsExcludedImportTypes": [
           "internal"

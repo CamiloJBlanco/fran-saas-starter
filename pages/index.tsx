@@ -1,13 +1,10 @@
-import { InferGetStaticPropsType } from 'next';
 import Head from 'next/head';
 import styled from 'styled-components';
 import BasicSection from 'components/BasicSection';
 import { EnvVars } from 'env';
 import Cta from 'views/HomePage/Cta';
 import Features from 'views/HomePage/Features';
-import FeaturesGallery from 'views/HomePage/FeaturesGallery';
 import Hero from 'views/HomePage/Hero';
-import Partners from 'views/HomePage/Partners';
 import Testimonials from 'views/HomePage/Testimonials';
 
 export default function Homepage() {
@@ -25,7 +22,7 @@ export default function Homepage() {
           <Hero />
           {/* Necesario conservar el componente
           <Partners /> */}
-          <BasicSection imageUrl="/dronImage.svg" title="About us" overTitle="Fran's History">
+          <BasicSection imageUrl="/dronImage.svg" title="About us" overTitle="Fran&apos;s History">
             <p style={{ textAlign: 'justify' }}>
               Since 2010 we have been dedicated exclusively to the administration of horizontal property consortia in the city of Rosario, providing security, value and confidence
               to the buildings, their owners and those who live in them. We work daily to offer a better service, focused on our clients, that is reliable and professional.

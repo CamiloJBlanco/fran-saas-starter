@@ -12,7 +12,7 @@ export default function ContactPage() {
           </p>
           <br />
           <strong>
-            Here's what you need to know about our Privacy Policy:<br />
+            Here&apos;s what you need to know about our Privacy Policy:<br />
           </strong>
           <ul>
             <li>

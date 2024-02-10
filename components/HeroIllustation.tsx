@@ -3,8 +3,6 @@ import styled from 'styled-components';
 import { media } from 'utils/media';
 
 export default function HeroIllustration() {
-  const condoImage = "https://drive.google.com/drive/u/2/folders/14neM0caEatdwG7CvsYZBPw9mDfIEbmon"
-
   return (
     <ImageContainer>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '50vh' }}>

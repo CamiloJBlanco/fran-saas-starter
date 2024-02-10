@@ -20,7 +20,7 @@ const TESTIMONIALS = [
   },
   {
     companyLogoUrl: 'https://media.licdn.com/dms/image/D4D0BAQGa6SA7ZwG5tA/company-logo_200_200/0/1693661534859/condo_srl_logo?e=2147483647&v=beta&t=G8_ZclfMF1KqqkyP4qUnaZEhu3xwtS7vU85qQijHQ80',
-    content: `It's really wonderful. I use saas product often. Thank You! Saas product has really helped our business.`,
+    content: `It&apos;s really wonderful. I use saas product often. Thank You! Saas product has really helped our business.`,
     author: {
       name: 'Camilo Blanco de la Vega',
       title: 'Co-Founder Fran Bot',
@@ -49,7 +49,7 @@ export default function Testimonials() {
               <TestimonialCard>
                 <NextImage
                   src={singleTestimonial.companyLogoUrl}
-                  alt={`${singleTestimonial.author.name}'s company logo`}
+                  alt={`${singleTestimonial.author.name}&apos;s company logo`}
                   width={40}
                   height={40}
                 />

@@ -4,8 +4,8 @@ import BasicCard from 'components/BasicCard';
 import Page from 'components/Page';
 import SectionTitle from 'components/SectionTitle';
 import YoutubeVideo from 'components/YoutubeVideo';
-import { media } from 'utils/media';
 import { FeaturesInfo } from 'constants/features';
+import { media } from 'utils/media';
 
 export default function FeaturesPage() {
   return (

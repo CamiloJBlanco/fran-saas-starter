@@ -3,15 +3,12 @@ import styled from 'styled-components';
 import { media } from 'utils/media';
 
 export default function HeroIllustration() {
-  const condoImage = "https://static.wixstatic.com/media/53ea4d_1bb2f90d97d0407ab8be326b1df7687d~mv2.png/v1/fill/w_476,h_168,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/53ea4d_1bb2f90d97d0407ab8be326b1df7687d~mv2.png"
+  const condoImage = "https://drive.google.com/drive/u/2/folders/14neM0caEatdwG7CvsYZBPw9mDfIEbmon"
 
   return (
-    // <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '50vh' }}>
-    //   <Image src={condoImage} alt="Condo Image" width={500} height={190} />
-    // </div>
     <ImageContainer>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '50vh' }}>
-        <Image src={condoImage} alt="Condo Image" width={500} height={190} />
+        <Image src={"/franUrl.png"} alt="Condo Image" width={400} height={400} />
       </div>
     </ImageContainer>
   );

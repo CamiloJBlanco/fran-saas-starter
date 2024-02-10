@@ -21,18 +21,12 @@ const footerItems: FooterItems = [
     title: 'Product',
     items: [
       { title: 'Features', href: '/features' },
-      { title: 'Something', href: '/something' },
-      { title: 'Something else', href: '/something-else' },
-      { title: 'And something else', href: '/and-something-else' },
     ],
   },
   {
     title: 'Knowledge',
     items: [
-      { title: 'Blog', href: '/blog' },
       { title: 'Contact', href: '/contact' },
-      { title: 'FAQ', href: '/faq' },
-      { title: 'Help Center', href: '/help-center' },
     ],
   }
 ];
@@ -106,6 +100,7 @@ const ListContainer = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  text-align: center;
 `;
 
 const ListHeader = styled.p`

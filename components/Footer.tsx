@@ -1,8 +1,8 @@
-import NextLink from 'next/link';
-import { FacebookIcon, LinkedinIcon, WhatsappIcon } from 'react-share';
+import Link from 'next/link';
 import styled from 'styled-components';
 import Container from 'components/Container';
 import { media } from 'utils/media';
+import { SocialIcon } from 'react-social-icons'
 
 type SingleFooterListItem = { title: string; href: string };
 type FooterListItems = SingleFooterListItem[];
@@ -42,23 +42,12 @@ export default function Footer() {
         </ListContainer>
         <BottomBar>
           <ShareBar>
-            <NextLink href="https://wa.me/5493413247522" passHref>
-              <a>
-                <WhatsappIcon size={50} round={true} />
-              </a>
-            </NextLink>
+            <SocialIcon url="www.whatsapp.com" href="https://wa.me/5493413247522" />
+            <SocialIcon url="www.facebook.com" href="https://www.facebook.com/profile.php?id=61556414819504" />
+            <SocialIcon url="https://www.instagram.com" href="https://www.instagram.com/echoassist.app/?hl=es-la" />
+            <SocialIcon url="www.linkedin.com" href="https://www.linkedin.com/company/echoassist/" />
+            <SocialIcon url="www.telegram.com" href="https://t.me/Echoassist_bot" />
 
-            <NextLink href="https://www.condo.com.ar/" passHref>
-              <a>
-                <FacebookIcon size={50} round={true} />
-              </a>
-            </NextLink>
-
-            <NextLink href="https://www.linkedin.com/company/condo-srl/" passHref>
-              <a>
-                <LinkedinIcon size={50} round={true} />
-              </a>
-            </NextLink>
           </ShareBar>
           <Copyright>&copy; Copyright 2024 echoassist</Copyright>
         </BottomBar>
@@ -81,9 +70,9 @@ function FooterList({ title, items }: SingleFooterList) {
 function ListItem({ title, href }: SingleFooterListItem) {
   return (
     <ListItemWrapper>
-      <NextLink href={href} passHref>
+      <Link href={href} passHref>
         <a>{title}</a>
-      </NextLink>
+      </Link>
     </ListItemWrapper>
   );
 }
@@ -140,6 +129,7 @@ const ListItemWrapper = styled.p`
 `;
 
 const ShareBar = styled.div`
+margin-bottom: 1rem;
   & > *:not(:first-child) {
     margin-left: 1rem;
   }
@@ -148,6 +138,7 @@ const ShareBar = styled.div`
 const Copyright = styled.p`
   font-size: 1.5rem;
   margin-top: 0.5rem;
+  margin-bottom: 1rem;
 `;
 
 const BottomBar = styled.div`

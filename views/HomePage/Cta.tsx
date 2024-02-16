@@ -19,14 +19,12 @@ export default function Cta() {
           <OverTitle>Features</OverTitle>
           <SectionTitle>Want to know more about echoassist&apos;s features?</SectionTitle>
           <Description>
-            Discover a comprehensive suite of premium features designed to enhance the experience for Home Units Residents and HOA Managers alike.
-            Our platform revolutionizes communication and task management, offering seamless integration and intuitive user adoption.
-            With Natural Language Understanding and conversational flexibility, users can interact effortlessly.
-            We prioritize user satisfaction with a focus on enhanced user experience, robust data security, and personalized services.
-            Our round-the-clock customer support ensures continuous assistance, while time-saving automation drives increased productivity.
-            HOA Managers benefit from reduced workloads through automation and tailored solutions that cater to various HOA needs.
-            Our platform is adaptable, allowing users to stay ahead of evolving Real Estate trends and market dynamics.
-            Experience the future of Real Estate management with us.
+            Explore a comprehensive array of premium features meticulously crafted to elevate the experience for both Home Unit Residents and HOA Managers.
+            Our platform redefines communication and task management, seamlessly integrating with intuitive user adoption at its core.
+            With advanced Natural Language Understanding (NLU) and conversational flexibility, users can engage effortlessly.
+            Our paramount focus lies in user satisfaction, underscored by enhanced user experience, stringent data security measures, and personalized services.
+            HOA Managers reap the rewards of streamlined workflows through automation and bespoke solutions tailored to meet diverse HOA requirements.
+            Embracing adaptability, our platform empowers users to stay abreast of evolving Real Estate trends and market dynamics.
           </Description>
           <ButtonGroup>
             <Button onClick={() => setIsModalOpened(true)}>
@@ -48,6 +46,10 @@ const Description = styled.div`
   font-size: 1.8rem;
   color: rgba(var(--textSecondary), 0.8);
   text-align: justify;
+  ${media('<=tablet')} {
+    font-size: 1.6rem;
+    padding: 0 0.3rem;
+  }
 `;
 
 const Stack = styled.div`

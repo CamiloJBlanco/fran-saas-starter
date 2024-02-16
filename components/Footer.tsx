@@ -42,12 +42,10 @@ export default function Footer() {
         </ListContainer>
         <BottomBar>
           <ShareBar>
-            <SocialIcon url="www.whatsapp.com" href="https://wa.me/5493413247522" />
             <SocialIcon url="www.facebook.com" href="https://www.facebook.com/profile.php?id=61556414819504" />
             <SocialIcon url="https://www.instagram.com" href="https://www.instagram.com/echoassist.app/?hl=es-la" />
             <SocialIcon url="www.linkedin.com" href="https://www.linkedin.com/company/echoassist/" />
             <SocialIcon url="www.telegram.com" href="https://t.me/Echoassist_bot" />
-
           </ShareBar>
           <Copyright>&copy; Copyright 2024 echoassist</Copyright>
         </BottomBar>

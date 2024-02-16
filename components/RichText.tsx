@@ -57,7 +57,7 @@ const RichText = styled.div`
   }
 
   ${media('<=desktop')} {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 `;
 

@@ -19,9 +19,14 @@ export default function Cta() {
           <OverTitle>Features</OverTitle>
           <SectionTitle>Want to know more about echoassist&apos;s features?</SectionTitle>
           <Description>
-            Experience premium real estate bot services with tailored features and 24/7 support across multiple channels. 
-            Our platform prioritizes security with encryption and proactive monitoring, while ensuring accessibility for all users. 
-            Enjoy a seamless experience for elevated housing administration.
+            Discover a comprehensive suite of premium features designed to enhance the experience for Home Units Residents and HOA Managers alike.
+            Our platform revolutionizes communication and task management, offering seamless integration and intuitive user adoption.
+            With Natural Language Understanding and conversational flexibility, users can interact effortlessly.
+            We prioritize user satisfaction with a focus on enhanced user experience, robust data security, and personalized services.
+            Our round-the-clock customer support ensures continuous assistance, while time-saving automation drives increased productivity.
+            HOA Managers benefit from reduced workloads through automation and tailored solutions that cater to various HOA needs.
+            Our platform is adaptable, allowing users to stay ahead of evolving Real Estate trends and market dynamics.
+            Experience the future of Real Estate management with us.
           </Description>
           <ButtonGroup>
             <Button onClick={() => setIsModalOpened(true)}>
@@ -42,6 +47,7 @@ export default function Cta() {
 const Description = styled.div`
   font-size: 1.8rem;
   color: rgba(var(--textSecondary), 0.8);
+  text-align: justify;
 `;
 
 const Stack = styled.div`

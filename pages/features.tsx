@@ -12,7 +12,7 @@ export default function FeaturesPage() {
     <Page title="Features" description="">
       <Wrapper>
         <SectionTitle>Check out this quick introduction</SectionTitle>
-        <YoutubeVideo url="https://www.youtube.com/watch?v=q2leYWr5Pmo" />
+        <YoutubeVideo url="https://www.youtube.com/watch?v=IHxGXKvgrG8" />
         <CustomAutofitGrid>
           {FeaturesInfo.map((singleFeature, idx) => (
             <BasicCard key={singleFeature.title} {...singleFeature} />

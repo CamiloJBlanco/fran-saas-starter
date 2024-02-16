@@ -17,8 +17,8 @@ export default function Hero() {
         <CustomOverTitle>echoassist</CustomOverTitle>
         <Heading>Make your life easier with our Real Estate Bot</Heading>
         <Description>
-          Our Real Estate Bot streamlines your life by acting as a centralized solution for all apartment-related matters. It efficiently handles apartment issues, sends documents and expense reports, and facilitates communication with property management.
-          With its comprehensive capabilities, managing your apartment becomes hassle-free, saving you time and effort.
+          Our solution delivers tailored solutions for both HOA managers and home unit residents, addressing their distinct needs effectively.
+          Enhancing multi-side user perception of human interaction when beneficial.
         </Description>
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>

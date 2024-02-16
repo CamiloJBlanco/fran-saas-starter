@@ -24,21 +24,17 @@ export default function Homepage() {
           <Partners /> */}
           <BasicSection imageUrl="/dronImage.svg" title="About us" overTitle="echoassist&apos;s History">
             <p style={{ textAlign: 'justify' }}>
-              Since 2010 we have been dedicated exclusively to the administration of horizontal property consortia in the city of Rosario, providing security, value and confidence
-              to the buildings, their owners and those who live in them. We work daily to offer a better service, focused on our clients, that is reliable and professional.
+              Echoassist disrupts Real Estate communication by providing tailored AI solutions for Homeowners Associations (HOAs),
+              prioritizing data security and industry expertise to foster seamless interactions, optimize operations, and drive satisfaction
+              for both managers and residents.
             </p>
           </BasicSection>
           <BasicSection imageUrl="/tabletImage.svg" title="The best assistance for you" overTitle="Professionals" reversed>
             <p style={{ textAlign: 'justify' }}>
-              We have professionals who constantly advise us on legal and accounting aspects in order to comply with the current demands of our activity,
-              being able to correctly safeguard the rights and obligations of our clients. <br /> <br />
-              Likewise, we have a wide range of professionals and technicians for maintenance and improvement work, such as: electrical installations, maintenance of elevators,
-              gates, disinfection, maintenance of water pumps, masonry, plumbing, gas fitters, architects, surveyors, engineers . and other suppliers who together with them make
-              it possible to respond to the requirements of our clients. At the same time, in order to be able to sustain the quality of our service over time, we carry out a continuous
-              evaluation of our suppliers, considering costs, deadlines, and completion of the work together with the opinion of our clients, thus monitoring closeness together with the
-              customer of the service providers in the consortia we manage.<br /> <br />
-              The administration is registered in the Public Registry of Consortium Administrators of the Municipality of Rosario, in full compliance with
-              Ordinance No. 9008/12. Compliance with this municipal ordinance reinforces and provides an additional guarantee framework on the responsibility with which we carry out our work.
+              Our team is uniquely qualified to build our startup due to the diverse skill set and expertise of its members. Our founders bring a unique blend of technical proficiency and firsthand industry experience, with backgrounds in AI engineering, entrepreneurship and understanding of complex cultural dynamics.
+              <br /> <br />
+              Additionally, our advisory board members offer strategic guidance in IP protection, business strategy, and Real Estate development, complementing our team&apos;s skills.<br /> <br />
+              Moreover, our employees bring valuable firsthand experience in HOA Management and development, coupled with technical skills in areas such as GenAI and database management.
             </p>
           </BasicSection>
         </WhiteBackgroundContainer>
@@ -75,6 +71,6 @@ const WhiteBackgroundContainer = styled.div`
   }
 
   & > *:not(:first-child) {
-    margin-top: 12rem;
+    margin-top: 7rem;
   }
 `;

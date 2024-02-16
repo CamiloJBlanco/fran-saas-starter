@@ -1,8 +1,20 @@
 import { useColorSwitcher } from 'nextjs-color-mode';
+import { useEffect } from 'react';
 import styled from 'styled-components';
 
 export default function ColorSwitcher() {
   const { toggleTheme, colorMode } = useColorSwitcher();
+
+  const nextColorMode = localStorage.getItem('nextColorMode');
+  const onChange = (colorMode: string) => {
+    localStorage.setItem('nextColorMode', colorMode);
+  }
+
+  useEffect(() => {
+    if (!nextColorMode) {
+      onChange('light');
+    }
+  }, [nextColorMode]);
 
   const sunIcon = (
     <svg width="24" height="24" viewBox="0 0 24 24" focusable="false">

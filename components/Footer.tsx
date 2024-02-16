@@ -1,8 +1,8 @@
 import Link from 'next/link';
+import { SocialIcon } from 'react-social-icons'
 import styled from 'styled-components';
 import Container from 'components/Container';
 import { media } from 'utils/media';
-import { SocialIcon } from 'react-social-icons'
 
 type SingleFooterListItem = { title: string; href: string };
 type FooterListItems = SingleFooterListItem[];
